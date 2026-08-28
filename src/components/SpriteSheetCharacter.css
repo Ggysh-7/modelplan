@@ -2,10 +2,12 @@
   position: relative;
   width: 360px;
   height: 360px;
+  overflow: hidden;
   flex-shrink: 0;
 }
 
 .sprite-canvas {
+  mix-blend-mode: normal;
   width: 100%;
   height: 100%;
   display: block;
@@ -32,10 +34,11 @@
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .sprite-character {
     width: 240px;

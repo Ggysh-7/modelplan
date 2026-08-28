@@ -250,16 +250,16 @@
   width: 240px;
 }
 .card-ui {
-  top: 33%;
-  left: 28px;
+  top: 58px;
+  left: -8px;
   width: 240px;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
 }
 .card-video {
-  top: 33%;
-  right: 28px;
+  top: 58px;
+  right: -28px;
   width: 240px;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
 }
 .card-brand {
   bottom: 10px;
